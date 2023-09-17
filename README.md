@@ -4,15 +4,15 @@ This Django-based Todo App is a simple web application that allows users to mana
 # Prerequisites
 Before you get started, make sure you have the following software installed on your system:
 
-Python (3.7 or higher)
-Django (3.2 or higher)
+Python (3.10 or higher)
+Django (4.2 or higher)
 Pipenv (optional but recommended for managing virtual environments)
 Installation
 Clone the repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/django-todo-app.git
+git clone https://github.com/utso1707097/django-todo-app.git
 cd django-todo-app
 Create a virtual environment (optional but recommended):
 
@@ -65,7 +65,7 @@ Register a new user account or use the superuser account to log in.
 Use the app to create, update, delete, and mark tasks as complete.
 
 # Features
-User Authentication: Users can register, log in, and log out.
+User Authentication: Users can register, log in, and log out and search for todos.
 Task Management: Users can create, read, update, and delete tasks.
 Complete Status: Users can mark tasks as complete or incomplete.
 User-specific Data: Each user has their own set of tasks.
