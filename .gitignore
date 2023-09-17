@@ -1,0 +1,40 @@
+# Ignore Python compiled files
+*.pyc
+__pycache__/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore user uploads and media files
+media/
+
+# Ignore virtual environment files
+myEnv/
+.env
+
+# Ignore Django migrations
+**/migrations/
+
+# Ignore local settings (if you have them)
+local_settings.py
+
+# Ignore secret keys and sensitive information
+*.secret_key
+
+# Ignore development and temporary files
+*.db
+*.bak
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.pyo
+*.pyd
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
